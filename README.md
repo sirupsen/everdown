@@ -27,3 +27,7 @@ You might as well add this line to a file that get runs at every boot.
 For now, it's not present. Will it come? Well maybe, perhaps, not sure, it *might*. For now, use `ack` or whatever to search through the files.
 
 "But what about my PDFs?", you might ask. To what I'd gently reply: "I don't know, yet". I'm sure some smart fella created a Vim plugin to read and edit them, when I find what I think is optimal, I'll add it here.
+
+## Wishlist
+
+* The mobile Evernote clients don't support rich text, idea: Write notes on these devices in Markdown, tag these raw notes with `convert` and let Everdown take care of it!
