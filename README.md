@@ -30,4 +30,5 @@ For now, it's not present. Will it come? Well maybe, perhaps, not sure, it *migh
 
 ## Wishlist
 
+* Well, make this idea come to life
 * The mobile Evernote clients don't support rich text, idea: Write notes on these devices in Markdown, tag these raw notes with `convert` and let Everdown take care of it!
