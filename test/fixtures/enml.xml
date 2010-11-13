@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE en-note SYSTEM "http://xml.evernote.com/pub/enml2.dtd">
+<en-note>
+<p><strong>Hello World</strong>, I like cookies.</p>
+
+<ul>
+<li>This is a list element</li>
+<li>And this is another</li>
+</ul>
+
+
+</en-note>

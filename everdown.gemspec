@@ -13,6 +13,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
+  s.add_dependency "evernote", ">= 0.1.0"
+  s.add_dependency "rdiscount", ">= 1.2.7"
+
   s.add_development_dependency "bundler", ">= 1.0.0"
 
   s.files        = `git ls-files`.split("\n")

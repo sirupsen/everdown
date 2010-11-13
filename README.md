@@ -22,13 +22,16 @@ To deamonize Everdown for the grater awesome sync functionality, run it with:
 
 You might as well add this line to a file that get runs at every boot.
 
-## CLI
+## Links
 
-For now, it's not present. Will it come? Well maybe, perhaps, not sure, it *might*. For now, use `ack` or whatever to search through the files.
-
-"But what about my PDFs?", you might ask. To what I'd gently reply: "I don't know, yet". I'm sure some smart fella created a Vim plugin to read and edit them, when I find what I think is optimal, I'll add it here.
+* [Evernote Ruby Library][erl]
+* [Evernote API Documentation][ead]
 
 ## Wishlist
 
 * Well, make this idea come to life
 * The mobile Evernote clients don't support rich text, idea: Write notes on these devices in Markdown, tag these raw notes with `convert` and let Everdown take care of it!
+* **Name:** Everdown? Everbox (as in: Dropbox for Evernote (for hackers))
+
+[erl]: https://github.com/cgs/evernote
+[ead]: http://www.evernote.com/about/developer/api/evernote-api.htm
