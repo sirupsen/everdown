@@ -1,22 +1,17 @@
-require './test_helper'
+require "helper"
 
 context Everdown::Markup do
   setup { Everdown::Markup.new }
 
   context "with some Markdown" do
     context "ENML parser" do
-      setup do 
-        Everdown::Markup.new(fixture("markdown.md"))
-      end
+      setup { Everdown::Markup.new(fixture("markdown.md")) }
 
-      should "convert into ENML" do
-        topic.to_enml == fixture("enml.xml")
-      end
+      asserts(:to_enml).equals(fixture("enml.xml"))
     end
   end
 
-  # TODO: convert this to a macro
-  asserts("#enml_wrapper with argument 'Hello World'") do 
-    Everdown::Markup.new.enml_wrapper("Hello World")
-  end.equals(fixture("enml_wrapper.xml"))
+  # asserts [:enml_wrapper, "Hello World"] do 
+  #   Everdown::Markup.new.enml_wrapper("Hello World")
+  # end.equals(fixture("enml_wrapper.xml"))
 end

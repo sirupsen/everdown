@@ -1,5 +1,9 @@
 # Everdown
 
+I'll start to work on this once I have time, although there are some things I want to research on first:
+
+* Possible to ditch Evernote, and have some open-source OCR instead of Evernote's and keep it all in files in Dropbox?
+
 You like editing your notes in good ol' Vim, but too you'd like to have them all indexed up by Evernote and available everywhere: on the mighty internet, you're fancy devices, and whatever.
 
 Here's Everdown for you. It runs in the background and keeps a file tree up to date (buzz word: sync) with Evernote.
